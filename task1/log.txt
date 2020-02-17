@@ -1,0 +1,6 @@
+commit 883ddd32204208e773046d8de7143edb8acaa9c0
+Author: Daniil <worretes@gmail.com>
+Date:   Mon Feb 17 19:43:33 2020 +0300
+
+            new file:   ../.gitignore
+            new file:   status.txt
