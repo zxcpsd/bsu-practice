@@ -1,0 +1,281 @@
+{
+	"info": {
+		"_postman_id": "bff58fa2-10d9-4b6a-a547-4792d67d614e",
+		"name": "ip2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://dog.ceo/api/breeds/list/all",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breeds/list/all",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breeds",
+						"list",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.ip2country.info/ip?227.69.0.185",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.ip2country.info/ip?227.69.0.185",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ip2country",
+						"info"
+					],
+					"path": [
+						"ip"
+					],
+					"query": [
+						{
+							"key": "227.69.0.185",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dog.ceo/api/breeds/list/all",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breeds/list/all",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breeds",
+						"list",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo",
+					"protocol": "https",
+					"host": [
+						"www",
+						"alphavantage",
+						"co"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "TIME_SERIES_DAILY"
+						},
+						{
+							"key": "symbol",
+							"value": "MSFT"
+						},
+						{
+							"key": "apikey",
+							"value": "demo"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&apikey=ZCXZQJR28HNMWWHW",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&apikey=ZCXZQJR28HNMWWHW",
+					"protocol": "https",
+					"host": [
+						"www",
+						"alphavantage",
+						"co"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "TIME_SERIES_DAILY"
+						},
+						{
+							"key": "symbol",
+							"value": "MSFT"
+						},
+						{
+							"key": "outputsize",
+							"value": "compact"
+						},
+						{
+							"key": "apikey",
+							"value": "ZCXZQJR28HNMWWHW"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=MSFT&apikey=ZCXZQJR28HNMWWHW",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=MSFT&apikey=ZCXZQJR28HNMWWHW",
+					"protocol": "https",
+					"host": [
+						"www",
+						"alphavantage",
+						"co"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "TIME_SERIES_WEEKLY"
+						},
+						{
+							"key": "symbol",
+							"value": "MSFT"
+						},
+						{
+							"key": "apikey",
+							"value": "ZCXZQJR28HNMWWHW"
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dog.ceo/api/breeds/image/random",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breeds/image/random",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breeds",
+						"image",
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dog.ceo/api/breed/hound/list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breed/hound/list",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breed",
+						"hound",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.ip2country.info/ip?227.69.0.185",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.ip2country.info/ip?227.69.0.185",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ip2country",
+						"info"
+					],
+					"path": [
+						"ip"
+					],
+					"query": [
+						{
+							"key": "227.69.0.185",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
