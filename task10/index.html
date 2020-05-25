@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sample title</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <script src="fillStorage.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header"> 
+        <div class ="unlogged menu-button login"><a>Войти</a></div>
+        <div class ="unlogged menu-button"><a>Зарегистрироваться</a></div>
+            <div class="user-logo hidden logged">
+                <a class = "logged hidden" href="https://imgbb.com/"><img class="logo"src="https://i.ibb.co/zPJtQhs/logo.png" alt="logo"></a>  
+            </div>
+            <a class="name-link logged hidden" href="#"><div class="user-name">Lucas Tyber</div></a>
+        
+        <div class="menu-button logged hidden add-post">
+            <a>Добавить пост</a>
+        </div>
+        <div class="menu-button logged hidden">
+            <a href="#">Мой профиль</a>
+        </div>
+        <div class="menu-button logged hidden exit">
+            <a href="#">Выйти</a>
+        </div>
+    </div>
+    </header>
+
+    <main class="flex-main">
+        <div class="flex-free flex-left"></div>
+        <div class="flex-main-content">
+            <div class="wrap">
+                
+            </div>
+            
+            <template class="template">
+            <div class="flex-post">
+                <div class="post-author">
+                    author
+                    </div> 
+                <div class="post-button logged">
+                    <div class="cap"></div>
+                    <ul><form>
+                            <li>
+                                <button value="editPost" type="button">Редактировать</button>
+                            </li>
+                            <li>
+                                <button value="deletePost" type="button">Удалить</button>
+                            </li>
+                        </form>
+                    </ul>
+                </div>
+                <div class="post-date">
+                    date
+                </div>
+                
+                <p class="post-text"> text </p>
+                <div class="post-bottom">
+                    <p class="hashtags"></p>
+                    <form class="like-button-form">
+                        <button class="like-button" type="submit" action="submit">
+                            <img src="https://i.ibb.co/3yk6gxT/like.png">
+                            <div class="likes-count" ></div>
+                        </button>
+                    </form>
+                </div>
+            </template>
+            
+            <div class="main-button">
+                <button class="m-button" type="button" id="load-more-button">
+                    Загрузить ещё
+                </button>
+            </div>
+         </div>
+        <div class="flex-filter">
+            
+            <div class="filter-choose" >
+                <ul>
+                    <li>
+                    <a href="#">Добавить фильтр</a>
+                        <ul>
+                            <li id="date-filter"><a href="#">Дата</a></li>
+                            <li id="hashtag-filter"><a href="#">Хэштег</a></li>
+                            <li id="author-filter"><a href="#">Автор</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <form id="filter-form" method="post" name="filter-form">
+            <button type="submit" id="submit-filter-button" form="filter-form">Применить фильтры</button>
+            </form>
+        </div>
+        <div class="flex-free flex-right"> 
+        </div>
+    </main>
+    <footer>
+            Даниил Сиваков, 2 курс, 7 группа worretes@gmail.com
+    </footer>
+    </body>
+</html>
