@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>sample title</title>
+	<meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <!-- <script src="resourses/js/fillStorage.js"></script> -->
+        <link rel="stylesheet" href="resourses/css/styles.css">
+        <script src="resourses/js/script.js"></script>
+        
+    </head>
+    <body>
+        <div class="log-in hidden">
+            <form id="login-form">   
+                <div class="log-name log-item">
+                    <div class="log-descr">Введите имя аккаунта:</div>
+                    <input type="text" class="log-input" id="log-name-input"required>
+                </div>
+                <div class="log-pass log-item">
+                    <div class="log-descr">Введите пароль:</div>
+                <input type="password" class="log-input" id="log-pass-input" required>
+                </div>
+                <div class="log-button-wrap log-item">
+                    <button class="login-button" id="submit-log" type="submit">Войти</button>  
+                    <button class="login-button" id="deny-log" type="button">Закрыть</button>
+                </div>
+                <div class="log-item" id="log-status"></div>
+            </form>
+        </div>
+        <div class="register hidden">
+            <form id="register-form">   
+                <div class="reg-name reg-item">
+                    <div class="reg-descr">Введите имя аккаунта:</div>
+                    <input type="text" class="reg-input" id="reg-name-input"required>
+                </div>
+                <div class="reg-pass reg-item">
+                    <div class="reg-descr">Введите пароль:</div>
+                <input type="password" class="reg-input" id="reg-pass-input" required>
+                </div>
+                <div class="reg-button-wrap reg-item">
+                    <button class="register-button" id="submit-reg" type="submit">Зарегистрироваться</button>  
+                    <button class="register-button" id="deny-reg" type="button">Закрыть</button>
+                </div>
+                <div class="reg-item" id="reg-status"></div>
+            </form>
+        </div>
+        <header class="header"> 
+        <div class ="unlogged menu-button log"><a>Войти</a></div>
+        <div class ="unlogged menu-button reg">
+            <a href="#">Зарегистрироваться</a>
+        </div>
+            <div class="user-logo hidden logged">
+                <a class = "logged hidden" href="https://imgbb.com/"><img class="logo"src="https://i.ibb.co/zPJtQhs/logo.png" alt="logo"></a>  
+            </div>
+            <a class="name-link logged hidden" href=""><div class="user-name"></div></a>
+        
+        <div class="menu-button logged hidden add-post">
+            <a href="#">Добавить пост</a>
+        </div>
+        <div class="menu-button logged hidden">
+            <a href="#">Мой профиль</a>
+        </div>
+        <div class="menu-button logged hidden exit">
+            <a href="#">Выйти</a>
+        </div>
+    </div>
+    </header>
+
+    <main class="flex-main">
+        <div class="flex-free flex-left"></div>
+        <div class="flex-main-content">
+            <div class="wrap">
+                
+            </div>
+            
+            <template class="template">
+            <div class="flex-post">
+                <div class="post-author">
+                    author
+                    </div> 
+                <div class="post-button">
+                    <div class="cap"></div>
+                    <ul><form>
+                            <li>
+                                <button value="editPost" type="button">Редактировать</button>
+                            </li>
+                            <li>
+                                <button value="deletePost" type="button">Удалить</button>
+                            </li>
+                        </form>
+                    </ul>
+                </div>
+                <div class="post-date">
+                    date
+                </div>
+                
+                <p class="post-text"> text </p>
+                <div class="post-bottom">
+                    <p class="hashtags"></p>
+                    <form class="like-button-form">
+                        <button class="like-button" type="submit" action="submit">
+                            <img src="https://i.ibb.co/3yk6gxT/like.png">
+                            <div class="likes-count" ></div>
+                        </button>
+                    </form>
+                </div>
+            </template>
+            
+            <div class="main-button">
+                <button class="m-button" type="button" id="load-more-button">
+                    Загрузить ещё
+                </button>
+            </div>
+         </div>
+        <div class="flex-filter">
+            
+            <div class="filter-choose" >
+                <ul>
+                    <li>
+                    <a href="">Добавить фильтр</a>
+                        <ul>
+                            <li id="date-filter"><a href="">Дата</a></li>
+                            <li id="hashtag-filter"><a href="">Хэштег</a></li>
+                            <li id="author-filter"><a href="">Автор</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <form id="filter-form" method="post" name="filter-form">
+            <button type="submit" id="submit-filter-button" form="filter-form">Применить фильтры</button>
+            </form>
+        </div>
+        <div class="flex-free flex-right"> 
+        </div>
+    </main>
+    <footer>
+            Даниил Сиваков, 2 курс, 7 группа worretes@gmail.com
+    </footer>
+    </body>
+</html>
